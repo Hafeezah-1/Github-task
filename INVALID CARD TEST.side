@@ -264,7 +264,7 @@
     "name": "Invalid Card Details",
     "commands": [{
       "id": "26d649d9-687b-4f1f-9738-32745b88099c",
-      "comment": "opens konga website",
+      "comment": "opened konga website",
       "command": "open",
       "target": "/",
       "targets": [],
@@ -293,7 +293,7 @@
       "value": ""
     }, {
       "id": "870cf440-c5ea-4671-932e-7926eec6c756",
-      "comment": "",
+      "comment": "clicked login with google",
       "command": "click",
       "target": "id=google_container",
       "targets": [
@@ -307,46 +307,8 @@
       ],
       "value": ""
     }, {
-      "id": "5e677de9-79a0-48cd-8b1f-618feae87b66",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "css=.header_headerImage__KiBW1 .asset_imageCover__ttp_S",
-      "targets": [
-        ["css=.header_headerImage__KiBW1 .asset_imageCover__ttp_S", "css:finder"],
-        ["xpath=//img[@alt='CerAwards Nigeria']", "xpath:img"],
-        ["xpath=//main[@id='mainContent']/section/section/div/div/div/div/section/a/div/span/img", "xpath:idRelative"],
-        ["xpath=//section/a/div/span/img", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "b6fef398-c860-4ac9-9baa-ea9c5326c286",
-      "comment": "",
-      "command": "mouseOut",
-      "target": "css=.header_headerImage__KiBW1 .asset_imageCover__ttp_S",
-      "targets": [
-        ["css=.header_headerImage__KiBW1 .asset_imageCover__ttp_S", "css:finder"],
-        ["xpath=//img[@alt='CerAwards Nigeria']", "xpath:img"],
-        ["xpath=//main[@id='mainContent']/section/section/div/div/div/div/section/a/div/span/img", "xpath:idRelative"],
-        ["xpath=//section/a/div/span/img", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "b5e6c7a8-5d93-4b9a-a142-bdd07d1c2f75",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "linkText=Computers and Accessories",
-      "targets": [
-        ["linkText=Computers and Accessories", "linkText"],
-        ["css=.DesktopNavigation_navItem__TBbw6:nth-child(2)", "css:finder"],
-        ["xpath=//a[contains(text(),'Computers and Accessories')]", "xpath:link"],
-        ["xpath=//div[@id='nav-bar-fix']/div[2]/div/a[2]", "xpath:idRelative"],
-        ["xpath=(//a[contains(@href, '/category/computers-accessories-5227')])[2]", "xpath:href"],
-        ["xpath=//div[3]/div[2]/div/a[2]", "xpath:position"]
-      ],
-      "value": ""
-    }, {
       "id": "dcb537e3-8d50-4e20-b4ff-c817f7c90677",
-      "comment": "",
+      "comment": "mouse over Mackbooks",
       "command": "mouseOver",
       "target": "linkText=Computers and Accessories",
       "targets": [
@@ -360,14 +322,14 @@
       "value": ""
     }, {
       "id": "315a98e5-66f7-442c-94f2-2aedd78d9ca4",
-      "comment": "",
+      "comment": "scrolled to Macbooks",
       "command": "verifyElementPresent",
       "target": "linkText=Macbooks",
       "targets": [],
       "value": ""
     }, {
       "id": "854714e6-50ae-41fe-96aa-cebfcd21c9a4",
-      "comment": "",
+      "comment": "clicked on Macbooks",
       "command": "click",
       "target": "linkText=Macbooks",
       "targets": [
@@ -382,21 +344,14 @@
       "value": ""
     }, {
       "id": "e43dd84d-cd9d-483e-82d5-a7f488fbf6ed",
-      "comment": "",
-      "command": "runScript",
-      "target": "window.scrollTo(0,0)",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "4ba501fc-1c57-4c1c-aed8-d190f99aa5d3",
-      "comment": "",
+      "comment": "scrolled item list",
       "command": "runScript",
       "target": "window.scrollTo(0,0)",
       "targets": [],
       "value": ""
     }, {
       "id": "a64ed798-4036-4d90-ba02-c963d7b47c46",
-      "comment": "",
+      "comment": "clicked on item",
       "command": "click",
       "target": "css=.List_listItem__KlvU2:nth-child(3) .button_button__cpnXl",
       "targets": [
@@ -414,43 +369,8 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "632e32eb-f393-4fc8-8b04-dbb766f8e2fd",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "css=.List_listItem__KlvU2:nth-child(3) .button_button__cpnXl",
-      "targets": [
-        ["css=.List_listItem__KlvU2:nth-child(3) .button_button__cpnXl", "css:finder"],
-        ["xpath=(//button[@type='submit'])[7]", "xpath:attributes"],
-        ["xpath=//main[@id='mainContent']/section/section/section/section/section/section[2]/ul/li[3]/article/div[2]/form/div/button", "xpath:idRelative"],
-        ["xpath=//li[3]/article/div[2]/form/div/button", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "779d7ea0-8081-4bb9-99bf-0ede11f979d2",
-      "comment": "",
-      "command": "mouseOut",
-      "target": "css=.List_listItem__KlvU2:nth-child(3) .button_button__cpnXl",
-      "targets": [
-        ["css=.List_listItem__KlvU2:nth-child(3) .button_button__cpnXl", "css:finder"],
-        ["xpath=(//button[@type='submit'])[7]", "xpath:attributes"],
-        ["xpath=//main[@id='mainContent']/section/section/section/section/section/section[2]/ul/li[3]/article/div[2]/form/div/button", "xpath:idRelative"],
-        ["xpath=//li[3]/article/div[2]/form/div/button", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "66735a86-5857-4976-8271-702a81221c21",
-      "comment": "",
-      "command": "click",
-      "target": "css=.flash_flashMessageActions__7keY4",
-      "targets": [
-        ["css=.flash_flashMessageActions__7keY4", "css:finder"],
-        ["xpath=//section[@id='app-content-wrapper']/div/div/div/div", "xpath:idRelative"],
-        ["xpath=//div/div/div/div", "xpath:position"]
-      ],
-      "value": ""
-    }, {
       "id": "1ffd7ce5-f352-4346-a80c-732fec1bb1f9",
-      "comment": "",
+      "comment": "clicked proceed to checkout",
       "command": "click",
       "target": "linkText=Proceed to Checkout",
       "targets": [
@@ -464,46 +384,8 @@
       ],
       "value": ""
     }, {
-      "id": "5c4090d7-c058-4e5b-a712-4a3c45574811",
-      "comment": "",
-      "command": "runScript",
-      "target": "window.scrollTo(0,0)",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "ab80cf8f-28f2-4fd0-8f13-11af357dee79",
-      "comment": "",
-      "command": "runScript",
-      "target": "window.scrollTo(0,0)",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "6296793e-c8d9-4cc5-9b25-c6055b392012",
-      "comment": "",
-      "command": "click",
-      "target": "css=.deliveryOptionCard_active__Vhe_4 .button_button__cpnXl",
-      "targets": [
-        ["css=.deliveryOptionCard_active__Vhe_4 .button_button__cpnXl", "css:finder"],
-        ["xpath=//button[@type='submit']", "xpath:attributes"],
-        ["xpath=//main[@id='mainContent']/div/div[3]/div/section/div/div/div[2]/div/div[2]/div/div/button", "xpath:idRelative"],
-        ["xpath=//button", "xpath:position"],
-        ["xpath=//button[contains(.,'Add Delivery Address')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "4d7f4c10-7c26-412a-b74e-1fc8d360403a",
-      "comment": "",
-      "command": "click",
-      "target": "css=.deliveryCard_deliveryAddressCardContainer__P6sRV:nth-child(2) .deliveryCard_deliveryAddressCard__FCbm0",
-      "targets": [
-        ["css=.deliveryCard_deliveryAddressCardContainer__P6sRV:nth-child(2) .deliveryCard_deliveryAddressCard__FCbm0", "css:finder"],
-        ["xpath=(//button[@name='selectDeliveryAddress'])[2]", "xpath:attributes"],
-        ["xpath=//div[2]/form/button", "xpath:position"]
-      ],
-      "value": ""
-    }, {
       "id": "4bf5cfb7-9bdc-4cbe-9b10-950f177305db",
-      "comment": "",
+      "comment": "selected delivery address",
       "command": "click",
       "target": "css=.deliveryCard_selectedAddress__fnux0",
       "targets": [
@@ -514,7 +396,7 @@
       "value": ""
     }, {
       "id": "e7dbf729-bf60-4a92-bb87-3e6198a4080f",
-      "comment": "",
+      "comment": "clicked on use this address",
       "command": "click",
       "target": "linkText=Use this Address",
       "targets": [
@@ -528,26 +410,14 @@
       "value": ""
     }, {
       "id": "5b282792-b3a2-44f9-b8f6-bdac89f2d5ca",
-      "comment": "",
+      "comment": "Scroll to payment options",
       "command": "runScript",
       "target": "window.scrollTo(0,0)",
       "targets": [],
       "value": ""
     }, {
       "id": "c03cd66f-30f1-401f-8b15-c076f2d1df31",
-      "comment": "",
-      "command": "click",
-      "target": "css=.paymentOptions_paymentOptionsContentPayNowHeader__eiuIT input",
-      "targets": [
-        ["css=.paymentOptions_paymentOptionsContentPayNowHeader__eiuIT input", "css:finder"],
-        ["xpath=//input[@value='kpaygateway']", "xpath:attributes"],
-        ["xpath=//main[@id='mainContent']/div/div[3]/div/section[2]/div/div[2]/div/div/span/input", "xpath:idRelative"],
-        ["xpath=//span/input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "0a55046c-6de6-4e0f-a55c-6027b1b134d3",
-      "comment": "",
+      "comment": "clicked on pay now option",
       "command": "click",
       "target": "css=.paymentOptions_paymentOptionsContentPayNowHeader__eiuIT input",
       "targets": [
@@ -559,7 +429,7 @@
       "value": ""
     }, {
       "id": "021628d7-e36e-4625-b1f4-c55e8741787e",
-      "comment": "",
+      "comment": "clicked on continue to payment",
       "command": "click",
       "target": "name=placeOrder",
       "targets": [
@@ -573,7 +443,7 @@
       "value": ""
     }, {
       "id": "a7f03f69-cde3-4175-97d1-48b25f7c77ca",
-      "comment": "",
+      "comment": "select card options",
       "command": "selectFrame",
       "target": "index=8",
       "targets": [
@@ -581,17 +451,8 @@
       ],
       "value": ""
     }, {
-      "id": "33261fa7-065c-4199-8c75-e499465bf24f",
-      "comment": "",
-      "command": "click",
-      "target": "css=.anticon path",
-      "targets": [
-        ["css=.anticon path", "css:finder"]
-      ],
-      "value": ""
-    }, {
       "id": "c0504f16-1490-4a31-aaa0-d6019bbdc059",
-      "comment": "",
+      "comment": "clicked on card option",
       "command": "click",
       "target": "css=.Card .payment-option-name",
       "targets": [
@@ -603,7 +464,7 @@
       "value": ""
     }, {
       "id": "818b8c44-ee0b-44fa-9a43-ddbecae03096",
-      "comment": "",
+      "comment": "click on card number",
       "command": "click",
       "target": "id=card-number",
       "targets": [
@@ -616,7 +477,7 @@
       "value": ""
     }, {
       "id": "977e8a6f-2faa-4a6f-92a7-e355ac4e0dd9",
-      "comment": "",
+      "comment": "type card number",
       "command": "type",
       "target": "id=card-number",
       "targets": [
@@ -628,21 +489,8 @@
       ],
       "value": "2453 6725 9037 6273 "
     }, {
-      "id": "fbfff58f-71f9-4ef5-a28d-87f04798edb0",
-      "comment": "",
-      "command": "click",
-      "target": "id=expiry",
-      "targets": [
-        ["id=expiry", "id"],
-        ["css=#expiry", "css:finder"],
-        ["xpath=//input[@id='expiry']", "xpath:attributes"],
-        ["xpath=//div[@id='card-exists--false']/div/div[2]/div[2]/input", "xpath:idRelative"],
-        ["xpath=//div[2]/div[2]/input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
       "id": "0ed1adc4-6458-41a1-ab4e-0fb63b35b1aa",
-      "comment": "",
+      "comment": "Verified text",
       "command": "verifyText",
       "target": "id=card-number_unhappy",
       "targets": [
@@ -656,7 +504,7 @@
       "value": "Invalid card number"
     }, {
       "id": "e1fc1061-e9db-4afb-bd80-93b8167cf82e",
-      "comment": "",
+      "comment": "close card frame",
       "command": "click",
       "target": "css=.data-card__close",
       "targets": [
